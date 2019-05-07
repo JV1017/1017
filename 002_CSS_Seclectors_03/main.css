@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+p {
+    margin: 40px;
+}
+
+p::first-letter {
+    font-family: Serif;
+    font-size: 40px;
+    line-height: .5;
+}
+
+
+p::first-line {
+    color: mediumpurple;
+    font-weight: 500;
+}
