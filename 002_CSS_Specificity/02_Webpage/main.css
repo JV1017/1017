@@ -1,0 +1,61 @@
+html {
+    background-color: darkgray;
+}
+
+body {
+    width: 95%;
+    margin: 20px;
+    background-color: lightskyblue;
+    border: 5px solid white;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+}
+
+p
+{   color: blue;
+    text-align: center;
+}
+
+#emph
+{   color: pink;
+    text-align: center;
+}
+.emphasize
+{   color: mediumpurple;
+    text-align: center
+}
+.em {
+    color: firebrick;
+    test-align: center
+}
+
+.em1 {
+    color: yellow;
+    test-align: center
+}
+
+.em2 {
+    color: lawngreen;
+    test-align: center
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 20px ridge whitesmoke;
+}
+
+#secondary {
+    color: blue;
+}
+
+
+div {
+    width: auto;
+    height: auto;
+    background-color: white}
