@@ -1,0 +1,9 @@
+body {
+    font-size: 35px;
+    text-align: center;
+    border: 15px solid black;
+}
+
+a:link {
+    color: rebeccapurple;
+}

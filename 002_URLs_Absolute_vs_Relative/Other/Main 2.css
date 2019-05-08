@@ -1,0 +1,9 @@
+body {
+    font-size: 50px;
+    text-align: center;
+    border: 45px solid gold;
+}
+
+a:link {
+    color: Blue;
+}
