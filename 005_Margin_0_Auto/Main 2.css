@@ -1,0 +1,33 @@
+div {
+    height: 50px;
+    width: 80px;
+    border-color: black;
+    border-square: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-spacing: 20px;
+    word-spacing: 30px;
+    border-style: solid;
+    text-align: center;
+}
+
+* {
+    border: 1px dashed blue;
+    margin: 100px;
+}
+
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: blue;
+}
+
+#three {
+    background-color: yellow;
+}
+
+#four {
+    background-color: green;
+}
