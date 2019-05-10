@@ -1,0 +1,65 @@
+body {
+    color: purple;
+    background-color: lightpink;
+    text-align: center;
+}
+p {
+    border: 25px solid deeppink;
+}
+
+h1
+    {font-size: 80px;
+    color: purple;
+    font-family: "Advertising Script";
+    text-align: center;
+    font-style: italic;
+    border: 25px solid deeppink;
+}
+
+h2 {
+    font-size: 80px;
+    border: 5px solid deeppink;
+    background-color: purple;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    border: 5px solid deeppink;
+    background-color: purple;
+    color: white;
+}
+
+h4 {
+    font-size: 20px;
+    border: 5px solid deeppink;
+    background-color: purple;
+    color: white;
+}
+
+p
+    {
+    image-orientation: inherit;
+    width: auto;
+}
+
+nav
+    {width: auto;
+
+}
+
+li {
+    border: 2px solid deeppink;
+    background-color: purple;
+    color: white;
+    font-family: "Adobe Song Std"
+    font-style: oblique;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Advertising Script";
+    font-size: 50px;
+    color: White
+
+}
