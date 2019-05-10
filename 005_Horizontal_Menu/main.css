@@ -1,0 +1,22 @@
+ul {
+    text-align: center;
+    font-family: ScriptoramaMarkdownJF;
+    font-size: 50px;
+    font-variant-caps: all-small-caps;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: gold;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
