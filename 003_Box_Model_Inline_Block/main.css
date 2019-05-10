@@ -1,0 +1,39 @@
+* {
+    border: 2px dashed blue;
+}
+
+div {
+    height: 50px;
+    width: auto;
+    border-color: white;
+    border-square: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: pink;
+}
+
+#three {
+    background-color: blue;
+}
+
+#four {
+    background-color: pink;
+}
+
+#five {
+    background-color: blue;
+}
+
+#six {
+    background-color: pink;
+}
+
+
+.highlight {background-color: yellow}
