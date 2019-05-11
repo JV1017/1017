@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-flow: wrap;
+}
+
+div {
+    flex-grow: 1;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    border: 3px solid black;
+    font-family: Arial;
+}
+
+.f2 {
+    flex-grow: 2;
+}
