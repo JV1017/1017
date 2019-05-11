@@ -1,0 +1,17 @@
+h1  {
+    font-family: "Advertising Script";
+    font-size: 150px;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        color: deeppink;
+    }
+}
+
+@media (max-width: 1199px) {
+    h1 {
+        color: deepskyblue;
+    }
+}
