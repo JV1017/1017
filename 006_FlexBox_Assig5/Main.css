@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    font-family: ScriptoramaMarkdownJF;
+    font-size: 25px;
+}
+
+.c1, .c2, .c3, .c4 {
+    width: 100%;
+    min-height: 150px;
+}
+
+.c1 {
+    width: 25%;
+}
+
+.c4 {
+    width: 75%;
+}
+
+body {
+    width: 800px;
+}
+
+.c1 {
+    color: white;
+    background-color: darkblue;
+}
+
+.c2 {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.c3 {
+    color: white;
+    background-color: lightskyblue;
+}
+
+.c4 {
+    border: 3px solid red;
+    box-sizing: border-box;
+}
