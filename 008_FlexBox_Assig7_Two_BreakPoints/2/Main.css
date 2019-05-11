@@ -1,0 +1,59 @@
+body, html, header, article, aside, footer {
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 2em;
+    font-weight: bold;
+}
+
+
+article {
+    width: 100%;
+}
+
+aside {
+    width: 100%;
+}
+
+aside:nth-child(3) {
+    width: 50%;
+    order: 2;
+}
+
+aside:nth-child(4) {
+    width: 50%;
+    order: 3;
+}
+
+footer {
+    order: 4;
+}
+
+
+header {
+    background: orangered;
+}
+
+article {
+    text-align: left;
+    background: deepskyblue;
+}
+
+aside:nth-child(3) {
+    background: gold;
+}
+
+aside:nth-child(4) {
+    background: hotpink;
+}
+
+footer {
+    background: lightgreen;
+}
