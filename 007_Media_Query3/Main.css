@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+body {
+    border: 3px solid red;
+}
+
+
+p {
+    border-style: 3px wave red;
+    margin: 10px;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px
+    color: black;
+    border: 2px solid red;
+    border-spacing: 5px;
+}
+}
+
+@media (max-width: 1500px) {
+
+    body {
+        border: 3px solid red;
+    }
+
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        list-style: none;
+        margin: 10px
+        color: black;
+        border: 2px solid red;
+        border-spacing: 5px;
+    }
+
+    p {
+        border-style: 3px solid red;
+        justify-content: left;
+        text-align: left;
+    }
+}
