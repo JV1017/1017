@@ -1,0 +1,13 @@
+div {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    background-color: crimson;
+    text-align: center;
+}
+
+#two {
+    position: fixed;
+    right: 0;
+
+}
