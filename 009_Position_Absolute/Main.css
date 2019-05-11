@@ -1,0 +1,25 @@
+div {
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#one {
+    background-color: red;
+    position: auto;
+}
+
+#secondary {
+    background-color: orange;
+    position: relative;
+    Top: 25px;
+    left: 25px
+}
+
+#three {
+    background-color: yellow;
+    position: relative;
+    Top: -50px;
+    left: 50px
+}
