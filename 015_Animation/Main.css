@@ -1,0 +1,37 @@
+@keyframes bgcolor {
+    0% {
+        background-color: deepskyblue;
+    }
+
+    30% {
+        background-color: lawngreen;
+    }
+
+    60% {
+        background-color: hotpink;
+    }
+
+    90% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: mediumpurple;
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: white;
+    align-content: center;
+    display: flex;
+}
