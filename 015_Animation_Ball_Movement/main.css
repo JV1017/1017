@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.box b {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+    -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+    -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+    animation: moveX 3.05s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+    from { left: 0; } to { left: 48px; }
+}
+@-moz-keyframes moveX {
+    from { left: 0; } to { left: 480px; }
+}
+@-o-keyframes moveX {
+    from { left: 0; } to { left: 480px; }
+}
+@keyframes moveX {
+    from { left: 0; } to { left: 480px; }
+}
+@-webkit-keyframes moveY {
+    from { top: 0; } to { top: 600px; }
+}
+@-moz-keyframes moveY {
+    from { top: 0; } to { top: 500px; }
+}
+@-o-keyframes moveY {
+    from { top: 0; } to { top: 500px; }
+}
+@keyframes moveY {
+    from { top: 0; } to { top: 500px; }
+}
